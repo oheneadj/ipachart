@@ -30,7 +30,14 @@ button {
 .monophthong button {
   background-color: #af8f6e;
 }
+.monophthong button span {
+  color: rgb(0, 0, 0);
+}
+.monophthong button span i {
+  color: rgb(159, 42, 42);
+}
 
+/* Vowels */
 .vowel button {
   background-color: #cfbca8;
 }
@@ -46,7 +53,6 @@ button {
   background-color: #e7ddd4;
 }
 .diphong button span {
-  background-color: #e7ddd4;
   color: black;
 }
 .diphong button span i {
