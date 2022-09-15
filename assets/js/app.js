@@ -101,14 +101,10 @@ monophthongs.forEach((monophthong) => {
 
 //Vowels
 vowels.forEach((vowel) => {
-  const btn = document.createElement("button");
-  btn.classList.add("btn");
-  btn.classList.add("vowel");
+  const btn = document.getElementsByClassName(vowel);
 
-  btn.innerText = vowel;
-
-  btn.addEventListener("click", () => {
-    stopSongs();
+  btn[0].addEventListener("click", () => {
+    console.log(vowel);
     document.getElementById(vowel).play();
   });
 
