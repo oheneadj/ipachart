@@ -113,17 +113,12 @@ vowels.forEach((vowel) => {
 
 //Diphongs
 diphongs.forEach((diphong) => {
-  const btn = document.createElement("button");
-  btn.classList.add("btn");
-  btn.classList.add("diphong");
+  const btn = document.getElementsByClassName(diphong);
 
-  btn.innerText = diphong;
-
-  btn.addEventListener("click", () => {
-    stopSongs();
+  btn[0].addEventListener("click", () => {
+    console.log(diphong);
     document.getElementById(diphong).play();
   });
-
   //   document.getElementById("diphongs-box").appendChild(btn);
 });
 

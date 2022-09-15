@@ -65,7 +65,7 @@ span {
 }
 i {
   color: rgb(151, 10, 10);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a {
@@ -78,4 +78,9 @@ a {
 
 img {
   width: 100%;
+}
+
+.row .col-md-4 .col-sm-12 {
+  margin-right: 0px;
+  padding: 0px;
 }
