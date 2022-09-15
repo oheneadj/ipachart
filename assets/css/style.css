@@ -34,9 +34,23 @@ button {
 .vowel button {
   background-color: #cfbca8;
 }
+.vowel button span {
+  color: black;
+}
+.vowel button span i {
+  color: rgb(193, 7, 7);
+}
 
+/* Diphtong */
 .diphong button {
   background-color: #e7ddd4;
+}
+.diphong button span {
+  background-color: #e7ddd4;
+  color: black;
+}
+.diphong button span i {
+  color: red;
 }
 
 .consonant button {
@@ -64,8 +78,9 @@ span {
   font-style: italic;
 }
 i {
-  color: rgb(151, 10, 10);
-  font-weight: 400;
+  text-decoration: underline rgb(15, 14, 14);
+  font-weight: 500;
+  color: rgb(134, 6, 6);
 }
 
 a {
