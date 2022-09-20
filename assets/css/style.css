@@ -62,6 +62,12 @@ button {
 .consonant button {
   background-color: #9d9d9c;
 }
+.consonant button span {
+  color: black;
+}
+.consonant button span i {
+  color: rgb(191, 20, 20);
+}
 
 button:focus {
   outline: none;
