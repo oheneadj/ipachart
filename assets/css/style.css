@@ -59,7 +59,7 @@ button {
   color: red;
 }
 
-.consonant button {
+.consonant {
   background-color: #9d9d9c;
 }
 .consonant button span {
@@ -67,6 +67,16 @@ button {
 }
 .consonant button span i {
   color: rgb(191, 20, 20);
+}
+
+.voiceless {
+  background-color: rgb(228, 213, 83);
+}
+.voiced {
+  background-color: rgb(93, 206, 93);
+}
+.nasal-sounds {
+  background-color: rgb(182, 101, 101);
 }
 
 button:focus {
