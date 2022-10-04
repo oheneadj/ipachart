@@ -65,19 +65,23 @@ button {
 .consonant button span {
   color: black;
 }
-.consonant button span i {
-  color: rgb(191, 20, 20);
+.consonant i {
+  color: black;
 }
 
-.voiceless {
+.voiceless,
+.voiceless i {
   color: rgb(228, 213, 83);
   background-color: #9d9d9c;
 }
-.voiced {
+
+.voiced,
+.voiced i {
   color: rgb(28, 151, 28);
   background-color: #9d9d9c;
 }
-.nasal-sounds {
+.nasal-sounds,
+.nasal-sounds i {
   color: rgb(209, 43, 43);
   background-color: #9d9d9c;
 }
