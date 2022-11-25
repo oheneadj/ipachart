@@ -92,7 +92,6 @@ monophthongs.forEach((monophthong) => {
   const btn = document.getElementsByClassName(monophthong);
 
   btn[0].addEventListener("click", () => {
-    console.log(monophthong);
     stopSongs();
     document.getElementById(monophthong).play();
   });
@@ -103,7 +102,6 @@ vowels.forEach((vowel) => {
   const btn = document.getElementsByClassName(vowel);
 
   btn[0].addEventListener("click", () => {
-    console.log(vowel);
     stopSongs();
     document.getElementById(vowel).play();
   });
@@ -114,7 +112,6 @@ diphongs.forEach((diphong) => {
   const btn = document.getElementsByClassName(diphong);
 
   btn[0].addEventListener("click", () => {
-    console.log(diphong);
     stopSongs();
     document.getElementById(diphong).play();
   });
@@ -125,7 +122,6 @@ consonants.forEach((consonant) => {
   const btn = document.getElementsByClassName(consonant);
 
   btn[0].addEventListener("click", () => {
-    console.log(consonant);
     stopSongs();
     document.getElementById(consonant).play();
   });
